@@ -18,7 +18,7 @@ using System.Resources;
 #elif IPHONE
 [assembly: AssemblyDescription("CocosSharp for iOS")]
 #elif NETFX_CORE
-[assembly: AssemblyDescription("CocosSharp for Windows RT")]
+[assembly: AssemblyDescription("CocosSharp for Windows UWP")]
 #elif WINDOWS_PHONE8
 [assembly: AssemblyDescription("CocosSharp for Windows Phone 8")]
 #elif MACOS
@@ -52,4 +52,5 @@ using System.Resources;
 [assembly: AssemblyVersion("1.7.1.0")]
 [assembly: AssemblyInformationalVersion("1.7.1.0")]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]
+[assembly: AssemblyFileVersion("1.7.1.0")]
 

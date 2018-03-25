@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CocosSharp.Forms</id>
-    <version>1.7.1.0</version>
+    <version>1.7.1.1</version>
     <title>CocosSharp for Xamarin.Forms</title>
     <authors>Xamarin</authors>
     <owners>Xamarin</owners>
@@ -46,6 +46,10 @@
     <!--Windows Phone 8.1-->
     <file src="CocosSharp.Forms\CocosSharp.Forms.WP\bin\Release\*.dll" target="lib\wpa81" />
     <file src="CocosSharp.Forms\CocosSharp.Forms.WP\bin\Release\*.xml" target="lib\wpa81" />
+
+    <!--Windows UWP-->
+    <file src="CocosSharp.Forms\CocosSharp.Forms.WindowsUWP\bin\Release\*.dll" target="lib\uap10.0" />
+    <file src="CocosSharp.Forms\CocosSharp.Forms.WindowsUWP\bin\Release\*.xml" target="lib\uap10.0" />
 
   </files>
 
